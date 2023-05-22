@@ -1,11 +1,11 @@
 import {ImLocation} from "react-icons/im"; 
 import data from './cardData.json';
 
-
 function Desc(props){
+    console.log(process.env.PUBLIC_URL + props.data.img);
     return(
         <div className="flex flex-row h-fit w-fit py-5 border-b-2 border-slate-100">
-        <img src={props.data.img} alt={data.picAlt} className='pr-5 w-40 h-48'/>
+        <img src={process.env.PUBLIC_URL + props.data.img} alt={data.picAlt} className='pr-5 w-40 h-48'/>
         <div className="flex flex-col gap-20 mt-2">
         <div className="flex flex-col mt-1 max-w-sm">
             <div className="flex flex-row items-center gap-1">

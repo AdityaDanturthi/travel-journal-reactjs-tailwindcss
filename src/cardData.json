@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "img":"./images/mountfuji.png",
+        "img":"/images/mountfuji.png",
         "location": "JAPAN",
         "picAlt":"Mount Fuji",
         "mapsLink": "https://goo.gl/maps/U5bpVajnygoXRQnB9",
@@ -10,7 +10,7 @@
     },
     {
         "id":2,
-        "img":"./images/opera-house.png",
+        "img":"/images/opera-house.png",
         "location": "Australia",
         "picAlt":"Opera House",
         "mapsLink": "https://goo.gl/maps/uKf1erRFCN6sSbbq8",
@@ -19,7 +19,7 @@
     },
     {
         "id":3,
-        "img":"./images/geirangerfjord.png",
+        "img":"/images/geirangerfjord.png",
         "location": "Norway",
         "picAlt":"Geirangerfjord",
         "mapsLink": "https://goo.gl/maps/78owDZ4UQHFTXneo7",
